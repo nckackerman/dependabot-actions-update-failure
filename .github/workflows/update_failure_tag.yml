@@ -9,4 +9,8 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - uses: ncipollo/release-action@v1.8.3
+      # works
+      #- uses: ncipollo/release-action@v1.8.3
+
+      # doesnt work
+      #- uses: ncipollo/release-action@v1.8.10
