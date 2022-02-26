@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - uses: int128/datadog-actions-metrics@v1.1.0
+      - uses: ncipollo/release-action@v1.8.10
