@@ -1,0 +1,11 @@
+name: Sample-wf
+
+on:
+  pull_request:
+
+jobs:
+  sample:
+    steps:
+      - uses: actions/checkout@v1
+
+      - uses: int128/datadog-actions-metrics@v1.1.0
