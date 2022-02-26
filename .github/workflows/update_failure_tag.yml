@@ -1,10 +1,11 @@
-name: Sample-wf
+name: Sample-Failure-Tag
 
 on:
   pull_request:
 
 jobs:
   sample:
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
 

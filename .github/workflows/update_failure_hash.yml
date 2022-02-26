@@ -1,4 +1,4 @@
-name: Sample-wf
+name: Sample-Failure-Hash
 
 on:
   pull_request:
