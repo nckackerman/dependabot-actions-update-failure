@@ -10,7 +10,7 @@ jobs:
       - uses: actions/checkout@v1
 
       # works
-      - uses: github/codeql-action/init@7d56b0cd44f66136d094ee8b67d457c9cec4b8ef
+      - uses: github/codeql-action/init@0c670bbf0414f39666df6ce8e718ec5662c21e03
 
       # doesnt work
       #- uses: ncipollo/release-action@v1.8.10
