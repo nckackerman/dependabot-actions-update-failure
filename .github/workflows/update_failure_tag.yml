@@ -7,7 +7,7 @@ jobs:
   sample:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
+      - uses: actions/checkout@v3.1.0
 
       # works
       - uses: github/codeql-action/init@7d56b0cd44f66136d094ee8b67d457c9cec4b8ef
