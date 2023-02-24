@@ -9,4 +9,4 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-      - uses: ncipollo/release-action@3e88dac4cfd56ac692e06becafa84464a56e3286
+      - uses: ncipollo/release-action@d51f1872a4078bf85434f4b20c9bdbc4eb02f295
